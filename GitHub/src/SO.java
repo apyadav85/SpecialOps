@@ -12,6 +12,8 @@ public class SO {
 		driver.findElement(By.name("user_name")).sendKeys("admin");
 		driver.findElement(By.name("user_password")).sendKeys("admin");
 		driver.findElement(By.name("Login")).click();
+		
+		driver.findElement(By.linkText("Sign Out")).click();
 
 	}
 
